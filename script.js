@@ -1,18 +1,9 @@
-function LoadPage() {
-    window.location.href='https://blogpack.tistory.com/1087'
-}
-
-
-
-function clk(P)
+function a()
 {
-    let clkcount = 0;
-    if(clkcount == 5)
-    {
-        window.alert("askdejlakdjsfhlakdjshflkadjshfldkjsahfqlewuuhcfbkfd,fgsbnkqxlkwiuenxdkawirfbjeadlknxkzxgcihsdf")
-        clkcount = 0;
-    }   else if(clkcount < P)
-    {
-        clkcount ++;
-    }
+    let ans = prompt("관리자 권한");
+alert(ans)
+if (ans == "SW_!#@%")
+{
+    location.href='indexX.html';
+}
 }
